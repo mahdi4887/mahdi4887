@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+h1,h2 {
+    margin: 0;
+}
+
+.main {
+    margin: 0px 24px;
+    width: 98%;
+    margin-bottom: 8px;
+}
+
+.wrapper {
+    display: flex;
+    direction: row wrap;
+    width: 100%;
+}
+
+.left-section {
+    width: 72%;
+}
+
+.left-section .about-details a {
+    text-decoration: none;
+}
+.left-section .about {
+    padding-top: 16px;
+}
+
+.wrapper .classes {
+    width: 72%;
+}
+
+.class-table {
+    width: 70%;
+    border: 1;
+}
+
+.class-table thead th {
+    text-align: left;
+}
+
+.class-table tbody td {
+    border-top: 1px black solid;
+    padding: 8px 0px;
+}
+
+.extra-curricular {
+    width: 25%;
+}
+
+
+.right-section {
+    width: 25%;
+}
+
+.right-section img {
+    width: 300px;
+    height: 255px;
+}
+
+.text-light-blue {
+    color: rgb(57, 105, 194);
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.contact div {
+    padding: 8px 0px;
+}
+
+.contact .message input {
+    display: block;
+    width: 95%;
+    height: 30px;
+}
+
+.contact .submit {
+    padding: 8px 4px;
+}
+
